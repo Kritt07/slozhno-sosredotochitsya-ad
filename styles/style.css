@@ -1,5 +1,10 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
+.title-decor {
+  background-color: var(--accent-color);
+  color: var(--decor-text-color);
+}
+
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   background-image: var(--baxsic-background-image);
@@ -9,7 +14,90 @@
 
 /* header */
 
+.header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 10px;
+}
 
+.rec {
+  position: absolute;
+  top: 0;
+  right: 9px;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: var(--accent-color);
+  text-transform: uppercase;
+}
+
+.rec::after {
+  content: '';
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10px;
+  background-color: var(--accent-color);
+}
+
+.header__theme-menu-list {
+  margin: 65px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 10px;
+}
+
+.header__theme-menu-button {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  inline-size: 70px;
+  block-size: 26px;
+  
+  background-color: transparent;
+  border: none;
+  color: var(--accent-color);
+}
+
+/* .header__theme-menu-button_active {
+  border: 1px solid var(--main-color)
+}
+
+.header__theme-menu-button:hover {
+  border: 1px solid var(--main-color-opacity);
+}
+
+.header__theme-menu-button:focus {
+  border-bottom: 1px solid var(--main-color);
+} */
+
+.header__title {
+  font-weight: 700;
+  font-style: Bold;
+  line-height: 83%;
+  letter-spacing: 0%;
+  color: var(--title-color);
+  text-shadow: 4px 4px 0 var(--accent-color);
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+}
+
+.header__text {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 29.3px;
+  letter-spacing: 0%;
+  margin: 55px 0;
+}
 
 /* content */
 
