@@ -27,8 +27,8 @@
   left: 0;
   width: 25px;
   height: 25px;
-  border-bottom: 1px solid var(--accent-color);
-  border-left: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--header-decor-color);
+  border-left: 1px solid var(--header-decor-color);
 }
 
 .header::before {
@@ -38,8 +38,8 @@
   right: 0;
   width: 25px;
   height: 25px;
-  border-top: 1px solid var(--accent-color);
-  border-right: 1px solid var(--accent-color);
+  border-top: 1px solid var(--header-decor-color);
+  border-right: 1px solid var(--header-decor-color);
 }
 
 .rec {
@@ -52,7 +52,7 @@
   line-height: 25px;
   letter-spacing: 0%;
   text-align: center;
-  color: var(--accent-color);
+  color: var(--header-decor-color);
   text-transform: uppercase;
 }
 
@@ -87,11 +87,11 @@
   
   background-color: transparent;
   border: none;
-  color: var(--accent-color);
+  color: var(--button-color);
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color);
+  border: 1px solid var(--button-color);
 }
 
 .header__theme-menu-button:not(.header__theme-menu-button_active):hover {
@@ -146,7 +146,7 @@
   font-size: 18px;
   line-height: 23.4px;
   letter-spacing: 0%;
-  color: var(--accent-color);
+  color: var(--section--title-color);
 }
 
 .card__title {
