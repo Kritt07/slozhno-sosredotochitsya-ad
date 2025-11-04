@@ -10,4 +10,5 @@
   --title-color: #DB00FF;
   --decor-text-color: #000028;
   --card-text-color: #F1B2CE;
+  --title-current-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
