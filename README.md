@@ -1,1 +1,1 @@
-https://github.com/Kritt07
+https://github.com/Kritt07/slozhno-sosredotochitsya-ad
