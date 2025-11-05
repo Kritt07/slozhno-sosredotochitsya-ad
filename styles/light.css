@@ -16,19 +16,20 @@
   --card-text-color: #353430;
 }
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-  --baxsic-background-image: url('../images/cover-image-light.png');
-  --button-color: #353430;
-  --header-decor-color: #353430;
-  --accent-color: #FF8DCB;
-  --section--title-color: #353430;
-  --main-color-opacity: rgba(50, 49, 45, 0.4);
-  --title-color: #FFC2E6;
-  --decor-text-color: #353430;
-  --card-text-color: #353430;  
-}
-
 .theme-light .rec {
   display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --baxsic-background-image: url('../images/cover-image-light.png');
+    --button-color: #353430;
+    --header-decor-color: #353430;
+    --accent-color: #FF8DCB;
+    --section--title-color: #353430;
+    --main-color-opacity: rgba(50, 49, 45, 0.4);
+    --title-color: #FFC2E6;
+    --decor-text-color: #353430;
+    --card-text-color: #353430; 
+  }
 }
