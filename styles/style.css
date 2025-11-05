@@ -122,9 +122,11 @@
 }
 
 .header__text {
+  font-family: IBM Plex Mono;
   font-weight: 700;
   font-style: Bold;
   font-size: 18px;
+  leading-trim: NONE;
   line-height: 23.4px;
   letter-spacing: 0%;
 }
@@ -136,7 +138,6 @@
   flex-direction: column;
   gap: 50px;
   padding: 40px 10px;
-  margin-bottom: 40px;
 }
 
 .content__section {

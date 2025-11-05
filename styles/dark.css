@@ -18,14 +18,4 @@
 
 .theme-dark .page .rec {
   /* Вам также нужно будет написать ряд подобных селекторов */
-  display: none;
-  --baxsic-background-image: url('../images/cover-image-dark.png');
-  --button-color: #FF0070;
-  --accent-color: #FF0070;
-  --header-decor-color: #FF0070;
-  --section--title-color: #FF0070;
-  --main-color-opacity: rgba(255, 0, 112, 0.4);
-  --title-color: #DB00FF;
-  --decor-text-color: #000028;
-  --card-text-color: #F1B2CE;
 }
