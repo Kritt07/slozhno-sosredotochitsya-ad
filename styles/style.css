@@ -255,7 +255,7 @@ h2.card__title {
 
   .header {
     padding: 192px 20px 183px;
-    height: calc(100vh - 40px);
+    height: 100vh;
   }
 
   .header::after { 
@@ -335,8 +335,17 @@ h2.card__title {
   /* footer */
 
   .footer {
-    margin: 20px;
-    height: calc(100vh - 40px);
+    height: 100vh;
+  }
+
+  .footer::after {
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .footer::before {
+    top: 20px;
+    right: 20px;
   }
 }
 
