@@ -258,7 +258,7 @@ h2.card__title {
     height: 100vh;
   }
 
-  .header::after { 
+  .header::after {
     left: 20px;
     bottom: 20px;
   }
