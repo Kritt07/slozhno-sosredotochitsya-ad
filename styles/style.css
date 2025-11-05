@@ -246,7 +246,7 @@ h2.card__title {
   letter-spacing: 0%;
   color: var(--title-color);
   text-shadow: 4px 4px 0 var(--accent-color);
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: var(--title-current-size);
 }
 
 @media (width >= 768px) {
@@ -366,6 +366,10 @@ h2.card__title {
   .header__theme-menu-list {
     flex-direction: row;
     align-self: center;
+  }
+
+  .section__title.changed {
+    width: 100%;
   }
 
   .content__section.changed {
