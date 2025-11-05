@@ -304,6 +304,10 @@ h2.card__title {
     grid-template-columns: 1fr;
   }
 
+  .section__title.changed {
+    width: min-content;
+  }
+
   .card.changed {
     grid-column: 1 / auto;
   }
